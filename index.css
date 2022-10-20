@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Noto Sans Mono';
+   scroll-behavior: smooth;
+}
+
+.header {
+   min-height: 80vh;
+   width: 100%;
+   background-color: brown;
+}
+
+.header div {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 30vh;
+}
+
+.header h1 {
+   color: white;
+   font-size: 70px;
+}
+
+.about {
+   min-height: 70vh;
+   width: 100%;
+   background-color: rgb(126, 36, 36);
+}
+
+.about-title {
+   padding: 50px;
+}
+
+.about-title h2 {
+   color: white;
+   font-size: 40px;
+}
+
+hr {
+   border-radius: 5px;
+   border: 2px solid white;
+}
+
+.bateman-photo-holder img {
+   width: 650px;
+}
+
+.bateman-photo-holder {
+   position: absolute;
+   display: flex;
+   left: 60%;
+}
+
+.Info {
+   width: 40%;
+   padding-left: 65px;
+}
+
+.Info p {
+   color: white;
+}
+
+.footer {
+   min-height: 50vh;
+   background-color: rgb(103, 32, 32);
+}
+
+.holder {
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.images ul {
+   display: flex;
+   list-style: none;
+}
+
+.images ul li {
+   padding: 50px;
+}
+
+.images img {
+   width: 100%;
+}
+
+.text-container {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   bottom: 10px;
+}
+
+.text-container p {
+   color: white;
+   font-size: 20px;
+}
+
+.arrow {
+   
+}
